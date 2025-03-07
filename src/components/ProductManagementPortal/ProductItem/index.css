@@ -1,0 +1,37 @@
+.product-item {
+      padding: 10px;
+        margin-bottom: 16px;
+        }
+        .product-details-link {
+          text-decoration: none;
+            color: #000000;
+            }
+
+            .product-image {
+              width: 160px;
+                height: 120px;
+                  border-radius: 4px;
+                    margin-bottom: 0;
+                    }
+
+                    .product-name {
+                      font-size: 18px;
+                        text-align: center;
+                          background-color: aliceblue;
+                            padding: 4px;
+                              margin-top: 0;
+                              }
+
+                              @media screen and (min-width: 768px) {
+                                .product-item {
+                                    margin: 30px;
+                                      }
+                                        .product-image {
+                                            width: 240px;
+                                                height: 180px;
+                                                  }
+                                                    .product-name {
+                                                        font-size: 22px;
+                                                            padding: 6px;
+                                                              }
+                                                              }
